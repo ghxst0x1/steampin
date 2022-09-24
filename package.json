@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rimraf out && rimraf .next",
+    "wipe": "npm run clean && rimraf node_modules"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "rimraf": "^3.0.2"
   }
 }
