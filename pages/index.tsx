@@ -42,6 +42,10 @@ const Home: NextPage = () => {
             <h2>D2ArmorPicker &rarr;</h2>
             <p>A simple armor min-max tool by Mijago.</p>
           </a>
+          <a href="https://destinyrecipes.com/" className={styles.card}>
+            <h2>Destiny Recipes &rarr;</h2>
+            <p>Tools for Destiny 2</p>
+          </a>
         </div>
         <p>NB: Some of these shortcut need Steam Authentication to use, I&apos;m not responsible if anything happend :&#41;</p>
         {/* <p>Although i personally use these tools 😁</p> */}
