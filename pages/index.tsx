@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/holyghxst" target="_blank" rel="noopener noreferrer">
           Made with ❤️ by GhxsT
           {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
