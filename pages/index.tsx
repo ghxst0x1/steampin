@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -48,15 +47,11 @@ const Home: NextPage = () => {
           </a>
         </div>
         <p>NB: Some of these shortcut need Steam Authentication to use, I&apos;m not responsible if anything happend :&#41;</p>
-        {/* <p>Although i personally use these tools 😁</p> */}
       </main>
 
       <footer className={styles.footer}>
         <a href="https://github.com/holyghxst" target="_blank" rel="noopener noreferrer">
           Made with ❤️ by GhxsT
-          {/* <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span> */}
         </a>
       </footer>
     </div>
