@@ -25,4 +25,9 @@ export default [
     url: "https://destinyrecipes.com/",
     desc: "Tools for Destiny2",
   },
+  {
+    title: "D2 Checkpoint",
+    url: "https://d2checkpoint.com/",
+    desc: "D2 Raid and Dungeon CP by Community Bots",
+  },
 ]
