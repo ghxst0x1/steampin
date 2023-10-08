@@ -1,0 +1,38 @@
+/* eslint-disable import/no-anonymous-default-export */
+export default [
+  {
+    title: "Google",
+    url: "https://google.com/",
+    desc: "Just your typical google",
+  },
+  {
+    title: "R6 Tracker",
+    url: "https://r6.tracker.network/",
+    desc: "Find your R6 Stats",
+  },
+  {
+    title: "DIM",
+    url: "https://app.destinyitemmanager.com/",
+    desc: "Destiny Item Manager",
+  },
+  {
+    title: "Today-in-destiny",
+    url: "https://www.todayindestiny.com/",
+    desc: "A summary of what's available in Destiny today.",
+  },
+  {
+    title: "D2ArmorPicker",
+    url: "https://d2armorpicker.com/",
+    desc: "A simple armor min-max tool by Mijago.",
+  },
+  {
+    title: "Destiny Recipes",
+    url: "https://destinyrecipes.com/",
+    desc: "Tools for Destiny2",
+  },
+  {
+    title: "D2 Checkpoint",
+    url: "https://d2checkpoint.com/",
+    desc: "D2 Raid and Dungeon CP by Community Bots",
+  },
+]
