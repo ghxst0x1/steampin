@@ -6,6 +6,11 @@ export default [
     desc: "Just your typical google",
   },
   {
+    title: "R6 Tracker",
+    url: "https://r6.tracker.network/",
+    desc: "Find your R6 Stats",
+  },
+  {
     title: "DIM",
     url: "https://app.destinyitemmanager.com/",
     desc: "Destiny Item Manager",
