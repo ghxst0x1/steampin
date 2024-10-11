@@ -73,6 +73,18 @@ export default function handler(
       link: "https://palia.th.gl/en/rummage-pile",
       group: "Games",
     },
+    {
+      id: "11",
+      title: "Google",
+      link: "https://google.com",
+      group: "Entertainment"
+    },
+    {
+      id: "12",
+      title: "YouTube",
+      link: "https://youtube.com",
+      group: "Entertainment"
+    },
     // Add more shortcuts as needed
   ];
 
