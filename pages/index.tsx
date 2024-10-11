@@ -50,7 +50,8 @@ export default function Home() {
     e.preventDefault();
     window.open(
       `https://www.google.com/search?q=${encodeURIComponent(googleSearch)}`,
-      "_blank"
+      "_blank",
+      "noopener,noreferrer"
     );
   };
 
@@ -60,7 +61,8 @@ export default function Home() {
       `https://www.youtube.com/results?search_query=${encodeURIComponent(
         youtubeSearch
       )}`,
-      "_blank"
+      "_blank",
+      "noopener,noreferrer"
     );
   };
 
@@ -208,6 +210,10 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <h6 className="opacity-50">
+          Tip: You can use Middle Mouse button or CTRL+LEFT CLICK on links to
+          open tabs on new tab instead of new window
+        </h6>
       </main>
     </div>
   );
@@ -227,7 +233,7 @@ function ShortcutCard({
       <h3 className="text-xl font-semibold mb-2">{shortcut.title}</h3>
       <a
         href={shortcut.link}
-        target="_blank"
+        // target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 hover:underline dark:text-blue-300"
       >
